@@ -25,8 +25,9 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 20px;
+    margin: 20px;
     display: inline-block;
+    width: 250px;
 }
 
 .respuesta {
@@ -38,10 +39,10 @@ button {
 .enlaces {
     background-color: #70b8b2;
     margin: 20px;
-    display: inline-block;
-    font-size: 20px;
+    font-size: 17px;
     border: 2px solid #2a383e;
-    padding: 10px;
+    padding: 15px;
+    display: inline-block;
 }
 
 .destacados {
@@ -56,4 +57,16 @@ button {
     width: 200px;
     cursor: pointer;
     font-family: helvetica, sans-serif;
+    user-select: none;
+}
+
+.juego {
+    font-size: 16px;
+    background-color: #9DBEBB;
+    border: 2px solid #2a383e;
+    padding: 15px;
+    margin: 10px;
+    width: 350px;
+    font-family: helvetica, sans-serif;
+    display: inline-block;
 }

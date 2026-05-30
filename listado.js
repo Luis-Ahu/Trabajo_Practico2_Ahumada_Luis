@@ -15,7 +15,7 @@ function mostrarJuegos(juegos) {
     listado.innerHTML = "";
 
     juegos.forEach((juego) => {
-        listado.innerHTML += `<li class='juego'>${juego.nombre} - ${juego.categoria}</li>`;
+        listado.innerHTML += `<div class='juego'>${juego.nombre} - ${juego.categoria}</div>`;
     });
 }
 
